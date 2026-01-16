@@ -1,3 +1,0 @@
-/home/anonymous/Documents/leBrowser/build-dir/CMakeFiles/QtWebEngineBrowser.dir
-/home/anonymous/Documents/leBrowser/build-dir/CMakeFiles/edit_cache.dir
-/home/anonymous/Documents/leBrowser/build-dir/CMakeFiles/rebuild_cache.dir
