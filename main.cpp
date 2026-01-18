@@ -1,3 +1,4 @@
+//including necessary libarys
 #include <QApplication>
 #include <QMainWindow>
 #include <QToolBar>
@@ -7,6 +8,7 @@
 #include <QObject>
 #include <QtWebEngineWidgets/QWebEngineView>
 
+//main function
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
@@ -21,7 +23,7 @@ int main(int argc, char *argv[])
     QToolBar *navtb = new QToolBar("Navigation", &window);
     window.addToolBar(navtb);
 
-    //Initializing navigationButtons
+    //initializing navigationButtons
     QAction *back_btn = new QAction("←", &window);
     QAction *forward_btn = new QAction("→", &window);
     QAction *reload_btn = new QAction("↻", &window);
