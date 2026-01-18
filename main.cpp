@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
     window.addToolBar(navtb);
 
     //Initializing navigationButtons
-    QAction *back_btn = new QAction("Back", &window);
-    QAction *forward_btn = new QAction("Forward", &window);
-    QAction *reload_btn = new QAction("Reload", &window);
+    QAction *back_btn = new QAction("←", &window);
+    QAction *forward_btn = new QAction("→", &window);
+    QAction *reload_btn = new QAction("↻", &window);
 
     //connecting navigationButtons and adding them to the navbar
     QObject::connect(back_btn, &QAction::triggered, view, &QWebEngineView::back);
