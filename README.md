@@ -1,3 +1,3 @@
 # C++-Qt-WebEngine-Browser
 Browser in C++ with Qt WebEngine
-(not finished)
+(not finished and also on ice for now)
